@@ -1,0 +1,32 @@
+.Paging {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.Paging > *:not(:last-child) {
+    margin-right: 20px;
+}
+
+.Paging-meta {
+    margin-right: 30px;
+}
+
+.Paging-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.Paging-button:hover:not([disabled]) {
+    background-color: #fff;
+    border-color: #fff;
+    color: #DB32EB;
+}
+
+.Paging-button:disabled {
+    filter: blur(0.8px);
+}

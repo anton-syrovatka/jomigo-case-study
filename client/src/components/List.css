@@ -1,0 +1,29 @@
+.List {
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+    max-width: 680px;
+}
+
+.List > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.List-item {
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.List-item > * {
+    cursor: pointer;
+}
+
+.List-item:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #DB32EB;
+}

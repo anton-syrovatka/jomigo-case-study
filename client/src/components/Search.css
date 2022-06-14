@@ -1,0 +1,40 @@
+.Search {
+    margin-top: 30px;;
+}
+
+.Search > *:not(:last-child) {
+    margin-right: 16px;
+}
+
+.Search-input {
+    font-size: 15px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    width: 60px;
+    font-size: 15px;
+}
+.Search-input:focus{
+    outline: none;
+}
+
+.Search-submit, .Search-reset {
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    height: 45px;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+.Search-submit:hover, .Search-reset:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #DB32EB;
+}
