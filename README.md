@@ -12,8 +12,8 @@ Original SpaceX API could be found [here](https://github.com/r-spacex/SpaceX-API
 
 ## How to run
 
-- `npm run start:server` starts server
-- `npm run start:client` starts client
+- `npm run start:server` starts server on port 3000
+- `npm run start:client` starts client on port 3001
 
 ## Requirement
 
